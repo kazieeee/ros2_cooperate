@@ -31,7 +31,7 @@ private:
     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr pub_;
     rclcpp::TimerBase::SharedPtr timer_;
     // 题目要求的数组
-    std::vector<int> data_array_ = {10, 20, 15, 35, 40, 5};
+    std::vector<int> data_array_ = {2, 5, 4, 8, 3, 6};
     size_t index_;
 };
 
